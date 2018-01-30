@@ -18,9 +18,11 @@ class DashboardViewController: UIViewController {
     var approvedClaims = [Claim]()
     var cancelledClaims = [Claim]()
     
-//    var type = 4      approved
-//    var type = 123    pending
-//    var type = 0      cancelled
+//    Status = 1 Pending
+//    Status = 2 Project Approved / Head of Delivery pending / Accountat pending
+//    Status = 3 Project Approved / Head of Delivery Approved Accountat pending
+//    Status = 4 All Approved
+//    Status = 0 cancelled
     
     var claimType = 123
     
